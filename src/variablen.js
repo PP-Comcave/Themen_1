@@ -1,5 +1,5 @@
 console.log("hi");
 
-let first = "hey";
+let firstname = "Max";
 
 console.log(first);
