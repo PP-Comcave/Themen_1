@@ -4,6 +4,7 @@ console.log("vorname ist gespeichert!")
 let familyName = prompt("nachname  ");
 console.log("nachname ist gespeichert!")
 console.log(firstName,familyName);
+
 if (firstName == "Jasper") {
    console.log("Monster Please");
 }
