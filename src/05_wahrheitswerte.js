@@ -1,0 +1,15 @@
+
+/* Berechnung Alter */
+
+// Deklaration
+let ageJohn, ageMark;
+const birthYearJohn = 2000;
+const birthYearMark = 1990;
+
+let year = 2024;
+//Berechnung Alter
+ageJohn = year - birthYearJohn;
+ageMark = year - birthYearMark;
+
+console.log("ageJohn " + ageJohn);
+console.log("ageMark " + ageMark);
