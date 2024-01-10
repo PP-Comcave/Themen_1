@@ -1,7 +1,12 @@
 console.log("hi");
+let firstName;
+let lastName;
+console.log(firstName + " " +lastName +" "+typeof lastName);
+lastName = null;
+console.log(firstName + " " +lastName +" "+typeof lastName);
 
-let firstName = "Max";
-let lastName = "Mustermann";
+firstName = "Max";
+lastName = "Mustermann";
 console.log(firstName + " " +lastName +" "+typeof lastName);
 lastName = 1;
 
@@ -15,5 +20,5 @@ console.log(firstName + " " +lastName +" "+typeof lastName);
 const x = "heel";
 
 console.log(x);
-x = "eh";
+//x = "eh";
 console.log(x);
