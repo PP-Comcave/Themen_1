@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/PP-Comcave/Themen_1/issues"
   },
-  "homepage": "https://github.com/PP-Comcave/Themen_1#readme"
+  "homepage": "https://github.com/PP-Comcave/Themen_1#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }
