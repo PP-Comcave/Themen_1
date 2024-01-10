@@ -11,3 +11,10 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 
 const prompt = require('prompt-sync')({sigint: true});
 console.log("hello");
+
+let zahl1 = Number(prompt("zahl 1"));
+
+let zahl2 = Number(prompt("zahl 2"));
+
+
+console.log(zahl1 + zahl2);
