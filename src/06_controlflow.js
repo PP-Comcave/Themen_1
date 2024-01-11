@@ -57,7 +57,7 @@ switch (job.toLowerCase()) {
 
 const cond = true;
 
-const value = 1;
+const value = 3;
 
 switch (cond) {
     case (value == 1):
@@ -65,5 +65,6 @@ switch (cond) {
         break;
 
     default:
+        console.log("error")
         break;
 }
