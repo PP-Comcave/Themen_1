@@ -42,7 +42,7 @@ switch (job) {
         console.log(firstName+ " fährt Taxi!")
         break;
     case "diver":
-        console.log(firstName+ " fährt taucht im Rhein!")
+        console.log(firstName+ " taucht im Rhein!")
     default:
         break;
 }
