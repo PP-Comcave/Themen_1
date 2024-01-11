@@ -3,7 +3,7 @@
 
 // Deklaration
 let ageJohn, ageMark;
-const birthYearJohn = 1980;
+const birthYearJohn = 1991;
 const birthYearMark = 1990;
 
 let date = new Date();
@@ -25,7 +25,7 @@ if (isJohnOlder){
 else if(isJohnEqual){
   console.log("John ist älter als Mark")
 }else{
-  console.log("Mark müsste älter als Mark sein")
+  console.log("Mark müsste älter als John sein")
 }
 
 console.log(isJohnOlder);
