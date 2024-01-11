@@ -36,12 +36,13 @@ if(isJohnOlder)
 */
 const firstName = "Jane"
 let job;
-job = "driver";
+job = "diver";
 switch (job) {
     case "driver":
         console.log(firstName+ " fährt Taxi!")
         break;
-
+    case "diver":
+        console.log(firstName+ " fährt taucht im Rhein!")
     default:
         break;
 }
