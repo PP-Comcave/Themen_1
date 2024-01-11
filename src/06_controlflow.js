@@ -34,9 +34,12 @@ if(isJohnOlder)
     console.log("John ist jünger!")
 }
 */
-const firstName = "Jane"
+/* const firstName = "Jane"
 let job;
-job = "diVer";
+job = "artist";     // .. malt ein Bild!
+job = "pilot";      // .. macht etwas anderes! --> default
+job = "teacher";    // .. unterrichtet!
+job = "instructor";  // .. unterrichtet!
 switch (job.toLowerCase()) {
     case "driver":
         console.log(firstName+ " fährt Taxi!")
@@ -47,6 +50,20 @@ switch (job.toLowerCase()) {
     case "artist":
         console.log(firstName + " malt ein Bild!")
         break;
+    default:
+        console.log(firstName + " macht etwas anderes");
+        break;
+} */
+
+const cond = true;
+
+const value = 1;
+
+switch (cond) {
+    case (value == 1):
+        console.log("Der Wert ist 1");
+        break;
+
     default:
         break;
 }
