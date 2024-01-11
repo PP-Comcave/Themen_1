@@ -57,13 +57,15 @@ switch (job.toLowerCase()) {
 
 const cond = true;
 
-const value = 3;
+const value = 1;
 
 switch (cond) {
     case (value == 1):
         console.log("Der Wert ist 1");
         break;
-
+    case (value == 2):
+        console.log("Der Wert ist 2");
+        break;
     default:
         console.log("error")
         break;
