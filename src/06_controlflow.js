@@ -1,3 +1,4 @@
+/*
 // Entscheidungsstrukturen | control flow
 
 // Deklaration + Assignment
@@ -25,9 +26,22 @@ isJohnEqual = (ageJohn == ageMark);
 // entweder JA oder nix ... alternativlos
 
 // Türsteher-Politik (Doors 10 p.m.)
+/*
 if(isJohnOlder)
 {
     console.log("John ist älter!")
 }else{
     console.log("John ist jünger!")
+}
+*/
+const firstName = "Jane"
+let job;
+job = "driver";
+switch (job) {
+    case "driver":
+        console.log(firstName+ " fährt Taxi!")
+        break;
+
+    default:
+        break;
 }
