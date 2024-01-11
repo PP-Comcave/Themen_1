@@ -36,13 +36,17 @@ if(isJohnOlder)
 */
 const firstName = "Jane"
 let job;
-job = "diver";
-switch (job) {
+job = "diVer";
+switch (job.toLowerCase()) {
     case "driver":
         console.log(firstName+ " fährt Taxi!")
         break;
     case "diver":
         console.log(firstName+ " taucht im Rhein!")
+        break;
+    case "artist":
+        console.log(firstName + " malt ein Bild!")
+        break;
     default:
         break;
 }
