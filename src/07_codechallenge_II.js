@@ -16,6 +16,7 @@ Alter 13-17 // Cola
 
 /* Getränke-Challenge */
 
+const prompt = require('prompt-sync')({sigint: true});
 
 const firstName = prompt("Bitte Namen eingeben:");
 const age =  parseInt(prompt("Bitte Alter eingeben:")); // "2" --> 2
