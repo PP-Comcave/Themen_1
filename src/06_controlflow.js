@@ -25,7 +25,7 @@ isJohnEqual = (ageJohn == ageMark);
 // entweder JA oder nix ... alternativlos
 
 // Türsteher-Politik (Doors 10 p.m.)
-if(false)
+if(isJohnOlder)
 {
     console.log("John ist älter!")
 }else{
