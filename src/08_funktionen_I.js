@@ -9,5 +9,11 @@ function ausgabeNamen(firstName) {
     console.log("hallo "+firstName);
     
 }
-ausgabeNamen("peter");
-ausgabeNamen("Melanie");
+function ausgabeNamenMultiple(firstName,lastName) {
+  
+    console.log("hallo "+firstName, lastName);
+    
+}
+ausgabeNamen("Peter");
+ausgabeNamenMultiple("peter","Schmidt");
+ausgabeNamenMultiple("Melanie","Tock");
