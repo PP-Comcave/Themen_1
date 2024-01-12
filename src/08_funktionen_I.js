@@ -92,4 +92,5 @@ function getString(firstName,lastName){
   const GAP = " ";
   let outputStr = "Hello, " + firstName + GAP + lastName;
   return outputStr
+  console.log("hi");
 }
