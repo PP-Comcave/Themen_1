@@ -2,8 +2,11 @@ test();
 function test() {
     console.log("Hi");
 }
-function ausgabeNamen() {
-    console.log("hallo Benjamin!");
+let firstName = "Benjamin"
+
+function ausgabeNamen(firstName) {
+  
+    console.log("hallo "+firstName);
     
 }
-ausgabeNamen();
+ausgabeNamen("peter");
