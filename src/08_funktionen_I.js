@@ -86,3 +86,10 @@ function output(outputData) {
     console.log(outputData);
     
 }
+output(getString("t","cd"))
+
+function getString(firstName,lastName){
+  const GAP = " ";
+  let outputStr = "Hello, " + firstName + GAP + lastName;
+  return outputStr
+}
