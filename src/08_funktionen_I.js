@@ -10,3 +10,4 @@ function ausgabeNamen(firstName) {
     
 }
 ausgabeNamen("peter");
+ausgabeNamen("Melanie");
