@@ -8,18 +8,29 @@
 3. Fkt. Grundrechenarten : 
 4. Ausgabe in Konsole : 
 */
-
-
-
 //ERROR Message to const
-  const ERROR_STR_DIV = "Division durch null nicht möglich";
+const ERROR_STR_DIV = "Division durch null nicht möglich";
 //Calc signs to Const
   const calc_sign= {
-    'sub'   :   '+',
+    'sub'   :   '-',
     'mul'   :   '*',
     'add'   :   '+',
     'div'   :   '/'
     }
+
+        
+const prompt = require('prompt-sync')({sigint: true});
+
+let zahl1 = Number(prompt("zahl 1 = "));
+let zahl2 = Number(prompt("zahl 2 = "));
+let op;
+while (!Object.values(calc_sign).includes(op)) {
+  op = prompt("choose op ");
+}
+output("Rechne "+ zahl1 + op + zahl2 +"=" )
+output(calc(zahl1,zahl2,op));
+output("TEST finished")
+
 //calc function   
   function calc(a,b,s) {
    switch (s) {
@@ -37,17 +48,17 @@
    }
     
   }
-  // testing calc 
-  output("start calc test")
-  output(calc(3,6,calc_sign.add));
-  output(calc(3,6,calc_sign.sub));
-  output(calc(3,6,calc_sign.mul));
-  output(calc(0,0,calc_sign.div));
-  output("finish calc test")
+//   // testing calc 
+//   output("start calc test")
+//   output(calc(3,6,calc_sign.add));
+//   output(calc(3,6,calc_sign.sub));
+//   output(calc(3,6,calc_sign.mul));
+//   output(calc(0,0,calc_sign.div));
+//   output("finish calc test")
 
-// module: output | test:
- output("hello");
- output(2);
+// // module: output | test:
+//  output("hello");
+//  output(2);
 function output(outputData) {
 	console.log(outputData);
 }
@@ -69,6 +80,6 @@ function div(a,b) {
     if (b == 0) {
         return ERROR_STR_DIV;
     }
-    
+
     return a / b;
 }
