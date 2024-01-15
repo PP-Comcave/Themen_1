@@ -20,6 +20,7 @@
     'add'   :   '+',
     'div'   :   '/'
     }
+//calc function   
   function calc(a,b,s) {
    switch (s) {
     case calc_sign.add:
@@ -51,8 +52,7 @@ function output(outputData) {
 	console.log(outputData);
 }
 
-output(add(2,5));
-output(sub(3,1));
+// calc functions
 function add(a,b) {
     return a + b;
     
