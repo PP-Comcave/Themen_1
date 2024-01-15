@@ -23,7 +23,7 @@ function output(outputData) {
 	console.log(outputData);
 }
 
-console.log(add(2,5));
+output(add(2,5));
 
 function add(a,b) {
     return a + b;
