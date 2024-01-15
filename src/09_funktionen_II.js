@@ -32,6 +32,8 @@ while (!Object.values(calc_sign).includes(op)) {
 output("Rechne "+ zahl1 + op + zahl2 +"=" )
 output(calc(zahl1,zahl2,op));
 output("TEST finished")
+output("next test")
+output(calc(getnum1(),getnum2(),getop()));
 
 //calc function   
   function calc(a,b,s) {
@@ -85,3 +87,14 @@ function div(a,b) {
 
     return a / b;
 }
+//get val
+function getnum1() {
+	return parseInt(prompt("zahl 1 "));
+}
+function getnum2() {
+    return parseInt(prompt("zahl 1 " ));
+}
+function getop() {
+    return prompt("get OP ");
+}
+
