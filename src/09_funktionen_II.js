@@ -24,7 +24,7 @@ function output(outputData) {
 }
 
 output(add(2,5));
-
+output(sub(3,1));
 function add(a,b) {
     return a + b;
     
