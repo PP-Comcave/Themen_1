@@ -11,13 +11,14 @@
 
 
 
-
-   const ERROR_STR_DIV = "Division durch null nicht möglich";
+//ERROR Message to const
+  const ERROR_STR_DIV = "Division durch null nicht möglich";
+//Calc signs to Const
   const calc_sign= {
-    'sub'   :   0,
-    'mul'   :   1,
-    'add'   :   2,
-    'div'   :   3
+    'sub'   :   '+',
+    'mul'   :   '*',
+    'add'   :   '+',
+    'div'   :   '/'
     }
   function calc(a,b,s) {
    switch (s) {
