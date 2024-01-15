@@ -10,6 +10,8 @@
 */
 //ERROR Message to const
 const ERROR_STR_DIV = "Division durch null nicht möglich";
+
+const ERROR_WRONG_OP = "unknown operator";
 //Calc signs to Const
   const calc_sign= {
     'sub'   :   '-',
@@ -43,7 +45,7 @@ output("TEST finished")
     case calc_sign.div:
         return div(a,b);
     default:
-        console.log("unknown operator")
+        console.log(ERROR_WRONG_OP);
         break;
    }
     
