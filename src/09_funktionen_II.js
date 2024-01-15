@@ -12,9 +12,36 @@
 
 
 
+let calc_sign  = {
+    'sub'   :   0,
+    'mul'   :   1,
+    'add'   :   2,
+    'div'   :   3
+  };
 
-
-
+  function calc(a,b,s) {
+   switch (s) {
+    case calc_sign.add:
+        return add(a,b);
+    case calc_sign.sub:
+        return sub(a,b);
+    case calc_sign.mul:
+        return mul(a,b);
+    case calc_sign.div:
+        return div(a,b);
+    default:
+        console.log("unknown operator")
+        break;
+   }
+    
+  }
+  // testing calc 
+  output("start calc test")
+  output(calc(3,6,calc_sign.add));
+  output(calc(3,6,calc_sign.sub));
+  output(calc(3,6,calc_sign.mul));
+  output(calc(3,6,calc_sign.div));
+  output("finish calc test")
 
 // module: output | test:
  output("hello");
