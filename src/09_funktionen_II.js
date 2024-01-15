@@ -40,7 +40,7 @@ let calc_sign  = {
   output(calc(3,6,calc_sign.add));
   output(calc(3,6,calc_sign.sub));
   output(calc(3,6,calc_sign.mul));
-  output(calc(3,6,calc_sign.div));
+  output(calc(0,0,calc_sign.div));
   output("finish calc test")
 
 // module: output | test:
@@ -65,5 +65,9 @@ function mul(a,b) {
     
 }
 function div(a,b) {
+    if (b !== 0) {
     return a / b;
+    }else{
+        return "Division durch null nicht möglich";
+    }
 }
