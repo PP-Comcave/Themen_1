@@ -12,13 +12,13 @@
 
 
 
-let calc_sign  = {
+   const ERROR_STR_DIV = "Division durch null nicht möglich";
+  const calc_sign= {
     'sub'   :   0,
     'mul'   :   1,
     'add'   :   2,
     'div'   :   3
-  };
-
+    }
   function calc(a,b,s) {
    switch (s) {
     case calc_sign.add:
@@ -68,6 +68,6 @@ function div(a,b) {
     if (b !== 0) {
     return a / b;
     }else{
-        return "Division durch null nicht möglich";
+        return ERROR_STR_DIV;
     }
 }
