@@ -8,7 +8,7 @@
 
 let arr;
 arr = [];
-arr = [2,11,7,11,10]
+arr = [2,11,7,8,10]
 output(arr.lastIndexOf(11));
 output(arr);
 
