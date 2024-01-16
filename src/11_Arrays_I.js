@@ -7,7 +7,8 @@
  */
 
 let arr;
-arr = new Array();
+arr = [];
+arr = [2,11,7,8,10]
 
 output(arr);
 
