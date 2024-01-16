@@ -25,10 +25,17 @@ const prompt = require('prompt-sync')({sigint: true});
 
 let zahl1 = Number(prompt("zahl 1 = "));
 let zahl2 = Number(prompt("zahl 2 = "));
-let op;
-while (!Object.values(calc_sign).includes(op)) {
-  op = prompt("choose op ");
+let op = get_op();
+
+
+function get_op() {
+    let op_tmp;
+    while (!Object.values(calc_sign).includes(op_tmp)) {
+        op_tmp = prompt("choose op ");
+      }
+      return op_tmp;
 }
+
 output("Rechne "+ zahl1 + op + zahl2 +"=" )
 output(calc(zahl1,zahl2,op));
 output("TEST finished")
