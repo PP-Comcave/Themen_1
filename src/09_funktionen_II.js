@@ -33,7 +33,7 @@ function get_op() {
     while (!Object.values(calc_sign).includes(op_tmp)) {
         op_tmp = prompt("choose op ");
       }
-      return op_tmp;
+    return op_tmp;
 }
 
 output("Rechne "+ zahl1 + op + zahl2 +"=" )
