@@ -21,7 +21,7 @@ let summe = Number(zahl1 + zahl2);
 if (isNaN(zahl1) || isNaN(zahl2)) {
    console.log("number1")
 }else{
-    console.log("number2")
+    console.log("n")
 }
 
 
