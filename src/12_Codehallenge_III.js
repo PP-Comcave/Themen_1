@@ -14,7 +14,7 @@ let arr =["Ich","hätt","gern","die","Platt","von","dene","zwei","diwodaso","Spa
 // module App
 startApp();
 function startApp() {
-    output(getSentence(arr)); // FEHLER ?
+    output(getSentence(arr)); // FEHLmER ?
 };
 
 // prompt "enter punct"
